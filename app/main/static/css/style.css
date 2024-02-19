@@ -143,3 +143,16 @@ body {
     border-radius: 0.25rem;
     display: none;
   }
+
+.alert-info {
+  position: absolute;
+  left: 335px;
+  top: -280px;
+  float: right;
+  clear: both;
+  width: 900px;
+  height: 800px;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: center;
+}

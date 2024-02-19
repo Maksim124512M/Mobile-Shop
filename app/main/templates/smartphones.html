@@ -5,5 +5,10 @@ Smartphones
 {% endblock %}
 
 {% block body %}
-
+{% for el in smartphones %}
+    <div class="alert alert-info">
+        <p>{{ el.name }}</p>
+        <a href="/media/{{ el.image }}"><p>PHOTO</p></a>
+    </div>
+{% endfor %}
 {% endblock %}
