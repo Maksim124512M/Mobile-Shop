@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Smartphones
+from .models import Smartphone
 
-admin.site.register(Smartphones)
+admin.site.register(Smartphone)

@@ -144,15 +144,21 @@ body {
     display: none;
   }
 
-.alert-info {
+.block-level {
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  position: relative;
+  float: left;
+}
+
+.smartphone-photo {
+  left: 100px;
+}
+
+.smartphone-panel-type {
   position: absolute;
-  left: 335px;
-  top: -280px;
-  float: right;
-  clear: both;
-  width: 900px;
-  height: 800px;
-  margin-top: 10px;
-  margin-left: 20px;
-  text-align: center;
+  left: 200px;
+  top: 100px;
+  color: green;
 }

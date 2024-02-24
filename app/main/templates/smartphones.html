@@ -7,8 +7,16 @@ Smartphones
 {% block body %}
 {% for el in smartphones %}
     <div class="alert alert-info">
-        <p>{{ el.name }}</p>
-        <a href="/media/{{ el.image }}"><p>PHOTO</p></a>
+        <a href="smartphone/{{el.id}}">
+            <p>
+                {{ el.name }}
+            </p>
+        </a>
+        <a href="/media/{{ el.image }}" class="smartphone-photo">
+            <p>
+                PHOTO
+            </p>
+        </a>
     </div>
 {% endfor %}
 {% endblock %}

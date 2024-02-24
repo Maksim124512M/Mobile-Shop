@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Smartphone
+{% endblock %}
+
+{% block body %}
+
+<div class="alert alert-info">
+    <h6 style="position: absolute; left: 10px; top: 10px;">
+        Panel type: {{ smartphone.panel_type }}
+    </h6>
+    <h6 style="position: absolute; left: 10px; top: 50px;">
+        Resolution: {{ smartphone.resolution }}</h6>
+    <h6 style="position: absolute; left: 10px; top: 90px;">Number of Cores: {{ el.number_of_cores }}
+    </h6>
+    <h6 style="position: absolute; left: 10px; top: 135px;">
+        Aspect Ratio: {{ smartphone.aspect_ratio }}
+    </h6>
+    <h6 style="position: absolute; left: 10px; top: 180px;">
+        Pixel Density: {{ smartphone.pixel_density }}
+    </h6>
+    <h6 style="position: absolute; left: 10px; top: 225px;">
+        Update frequency: {{ smartphone.update_frequency }}
+    </h6>
+    <h6 style="position: absolute; left: 10px; top: 270px;">
+        Clock frequency: {{ smartphone.clock_frequency }}
+    </h6>
+</div>
+
+{% endblock %}
